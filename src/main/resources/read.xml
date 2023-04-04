@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<group> <!-- ROOT -->
+    <student id="1">
+        <firstname>Bakhtigul</firstname> <!-- firstname -> NODE, Bakhtigul -> NODE TEXT -->
+        <lastname>Jumabekova</lastname>
+        <nickname>infinity</nickname>
+        <level year="SENIOR">4</level>
+    </student>
+    <student id="2">
+        <firstname>Elbek</firstname>
+        <lastname>Kholmatov</lastname>
+        <nickname>placeholder</nickname>
+        <level year="SOPHOMORE">2</level>
+    </student>
+    <student id="3">
+        <firstname>Elshod</firstname>
+        <lastname>Nuriddinov</lastname>
+        <nickname>1402</nickname>
+        <level year="FRESHMAN">1</level>
+    </student>
+    <student id="4">
+        <firstname>Madina</firstname>
+        <lastname>Otkirbekova</lastname>
+        <nickname>hacker</nickname>
+        <level year="SENIOR">4</level>
+    </student>
+    <student id="5">
+        <firstname>Fayzullo</firstname>
+        <lastname>Qahramonov</lastname>
+        <nickname>anjanlik</nickname>
+        <level year="JUNIOR">3</level>
+    </student>
+</group>
