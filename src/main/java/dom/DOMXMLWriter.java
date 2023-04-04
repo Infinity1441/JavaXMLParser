@@ -27,7 +27,7 @@ public class DOMXMLWriter {
 
         // add xml node
         Element student = document.createElement("student");
-        // add staff to root
+        // add student to root
         rootElement.appendChild(student);
         // add xml attribute
         student.setAttribute("id", "1");

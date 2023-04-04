@@ -70,7 +70,7 @@ public class StAXXMLReader {
 
             }
 
-            if (eventType == XMLEvent.END_ELEMENT) {    // </staff>
+            if (eventType == XMLEvent.END_ELEMENT) {    // </student>
                 if (reader.getName().getLocalPart().equals("student")) {
                     System.out.println("-----------------");
                 }
