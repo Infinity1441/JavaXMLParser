@@ -23,7 +23,7 @@ public class StAXXMLReader {
     private static void printXmlByXmlCursorReader(Path path) throws FileNotFoundException, XMLStreamException {
         XMLInputFactory xmlInputFactory = XMLInputFactory.newInstance();
 
-        // prevent xxe attack
+        // prevent xxe(XML External Entity) attack
         xmlInputFactory.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
         xmlInputFactory.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
 
